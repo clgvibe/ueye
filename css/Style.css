@@ -723,7 +723,11 @@ footer.footer .move-up span:hover{
     .popular-post{
         display: none;
     }
-
+	
+    .intro-text .hide span {
+        font-size: 30px;
+      }
+	
     .nav .nav-menu, .nav .nav-items{
         flex-direction: column;
     }
