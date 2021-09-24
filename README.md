@@ -1,2 +1,2 @@
 # UI
-UI- Only
+All the UI related files are available and updated in this repositry.
