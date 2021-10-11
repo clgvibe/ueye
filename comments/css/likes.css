@@ -133,6 +133,12 @@ p .reply {
 }
 
 @media screen and (max-width: 650px) {
+
+  .card {
+    margin-left: -10%;
+    margin-bottom: 10%;
+  }
+
   .row h3 {
     margin-left: 20%;
   }
