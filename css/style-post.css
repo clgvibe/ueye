@@ -417,10 +417,10 @@ button.btn:hover {
   color: #333;
 }
 
-.card1 .like span {
+.card1 .footer .like span {
   position: absolute;
-  bottom:70px;
-  left:0;
+  bottom: -50px;
+  left:0px;
   right:0;
   visibility: hidden;
   font-family: var(--Livvic);
@@ -432,12 +432,12 @@ button.btn:hover {
   font-weight:400;
 }
 
-.card1 .like i.press {
+.card1 .footer .like i.press {
   animation: size .4s;
   color:#0099ff;
 }
 
-.card1 .like span.press {
+.card1 .footer .like span.press {
   bottom:80px;
   font-size:30px;
   width: 80px;
@@ -562,28 +562,26 @@ button.btn:hover {
   color: #333;
 }
 
-
-.card .like span {
+.card .footer .like span {
   position: absolute;
-  bottom:70px;
-  left:0;
+  bottom: -50px;
+  left:0px;
   right:0;
   visibility: hidden;
   transition:.6s;
   font-family: var(--Livvic);
   z-index:-2;
   font-size:2px;
-  font-weight: 700;
   color:transparent;
-  font-weight:400;
+  font-weight:700;
 }
 
-.card .like i.press {
+.card .footer .like i.press {
   animation: size .4s;
   color:#0099ff;
 }
 
-.card .like span.press {
+.card .footer .like span.press {
   bottom:80px;
   font-size:30px;
   font-family: var(--Livvic);
@@ -1447,20 +1445,40 @@ footer.footer .rights h4 a {
 
 /*        x      Viewport less then or equal to 500px       x     */
 
+/*              Viewport less then or equal to 450px            */
+
+@media only screen and (max-width: 450px) {
+
+  .card1 .footer .like p {
+    margin-left: 30%;
+    margin-top: -25%;
+    color: #333;
+  }
+
+  .card .footer .like p {
+    margin-left: 30%;
+    margin-top: -25%;
+    color: #333;
+  }
+
+}
+
+/*        x      Viewport less then or equal to 450px       x     */
+
 /*              Viewport less then or equal to 350px            */
 
 @media only screen and (max-width: 350px) {
 
 
   .card1 .footer .like p {
-    margin-left: 45%;
-    margin-top: -40%;
+    margin-left: 35%;
+    margin-top: -30%;
     color: #333;
   }
 
   .card .footer .like p {
-    margin-left: 45%;
-    margin-top: -40%;
+    margin-left: 35%;
+    margin-top: -30%;
     color: #333;
   }
 
