@@ -884,3 +884,32 @@ html {
   }
 
 }
+
+/* Text Box */
+.text {
+  margin-bottom: 3%;
+  width: 90%;
+  margin-left: 0%;
+}
+
+.text2 {
+  margin-bottom: -2%;
+  margin-left: 0%;
+}
+
+.text3 {
+  margin-top: 2%;
+  border: none;
+  max-height: 100px;
+  overflow-y: auto;
+  background-image: none;
+  background-color: white;
+  padding: 0.5rem 1rem;
+  margin-right: 1rem;
+  border-radius: 1.125rem;
+  flex-grow: 2;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1), 0rem 1rem 1rem -1rem rgba(0, 0, 0, 0.2);
+  font-family: Red hat Display, sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.025em;
+}
